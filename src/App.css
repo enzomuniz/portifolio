@@ -13,3 +13,57 @@ align-items: center;
   display: flex;
   flex-direction: column;
 }
+.descricao {
+    flex-wrap: wrap;
+    width: 390px;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace
+}
+.corpo{
+  display: flex;
+  justify-content: center;
+}
+.hello{
+  margin: 20px;
+  font-family:'Courier New', Courier, monospace
+}
+.rick{
+display: flex;
+flex: 1;
+flex-direction: row;
+align-items: center;
+text-decoration: none;
+color: black;
+margin: 12px;
+}
+.projetos{
+  flex: 1;
+  justify-content:baseline;
+  align-items: center;
+  font-family:'Courier New', Courier, monospace
+}
+.proj1{
+  display: flex;
+  flex: 1;
+  margin: 12px;
+
+}
+.proj2{
+  display: flex;
+  flex: 1;
+  margin: 12px;
+}
+.cartola{
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  margin: 12px;
+  font-family:'Courier New', Courier, monospace
+  }
+a{
+  text-decoration: none;
+  color: black;
+}
